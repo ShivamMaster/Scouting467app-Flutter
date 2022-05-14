@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(  
           title: Text(appTitle),  
         ),  
-        body: MyCustomForm(),  
+        body: MyCustomForm(),
+      debugShowCheckedModeBanner: false  
       ),  
     );  
   }  
