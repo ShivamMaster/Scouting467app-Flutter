@@ -57,8 +57,8 @@ class MyCustomFormState extends State<MyCustomForm> {
           TextFormField(
             decoration: const InputDecoration(
               icon: const Icon(Icons.calendar_today),
-              labelText: 'Did they exit the taxi',
-              hintText: 'Write 2 for Yes; 0 for No',
+              hintText: 'Did they exit the taxi',
+              labelText: 'Write 2 for Yes; 0 for No',
             ),
           ),
           new Container(
