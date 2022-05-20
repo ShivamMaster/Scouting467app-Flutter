@@ -1,7 +1,7 @@
 // ignore_for_file: deprecated_member_use, unnecessary_new, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:login_page/screen/home.dart';
+//import 'package:login_page/screen/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final appTitle = 'Team 467 Scouting App';
+    // ignore: dead_code
     return MaterialApp(
       title: appTitle,
       debugShowCheckedModeBanner: false,
@@ -18,10 +19,10 @@ class MyApp extends StatelessWidget {
         ),
         body: MyCustomForm(),
         
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-      ),
+        //theme: ThemeData(
+          //primarySwatch: Colors.blue,
+        //),  
+      )
     );
   }
 }
