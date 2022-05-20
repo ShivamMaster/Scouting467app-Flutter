@@ -9,6 +9,7 @@ This a the code for the FRC Team 467 _The Colonials_ Web Scouting Form
 - https://docs.flutter.dev/get-started/web
 - http://www.androidcoding.in/2021/03/16/flutter-web-app-form/
 - https://www.citruscircuits.org/uploads/6/9/3/4/6934550/2021_whitepaper.pdf
+- https://blog.codemagic.io/flutter-web-getting-started-with-responsive-design/
 
 # Credits
 - https://www.javatpoint.com/flutter-forms
