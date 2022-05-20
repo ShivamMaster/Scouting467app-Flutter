@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     final appTitle = 'Team 467 Scouting App';
     return MaterialApp(
       title: appTitle,
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text(appTitle),
