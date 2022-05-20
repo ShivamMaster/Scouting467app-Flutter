@@ -1,6 +1,7 @@
 // ignore_for_file: deprecated_member_use, unnecessary_new, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:login_page/screen/home.dart';
 
 void main() => runApp(MyApp());
 
