@@ -32,9 +32,17 @@ class MyCustomForm extends StatelessWidget{
                           ),
 
                           child: Text(
-                            "This is a text. Please WORK"
-                          )
-                        )
+                            "Let's get you set up",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 30.0,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                        ),
+
+                        SizedBox(height:5.0,),
+
                       ]
                     )
                   )
@@ -43,6 +51,30 @@ class MyCustomForm extends StatelessWidget{
             )
           )
         )
+      )
+    );
+
+    // ignore: dead_code
+    Container(
+      padding: EdgeInsets.only(top: 15.0, right: 70.0, left: 70.0, bottom: 10.0),
+      child: Column(
+        children: <Widget> [
+            Text(
+              "Sign Up",
+              style: TextStyle(
+                color: Colors.lightBlue, fontWeight: FontWeight.w600, fontSize: 35.0, fontFamily: "Merriweather"),
+              ),
+              const SizedBox (height: 21.0),
+            
+          InputField(
+            label: "Team Number"
+            content: "467"
+          ),
+
+          SizedBox(height: 20.0),
+
+          
+        ],
       )
     );
   }
