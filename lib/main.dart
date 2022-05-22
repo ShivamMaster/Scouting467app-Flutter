@@ -11,19 +11,18 @@ class MyApp extends StatelessWidget {
     final appTitle = 'Team 467 Scouting App';
     // ignore: dead_code
     return MaterialApp(
-      title: appTitle,
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(appTitle),
-        ),
-        body: MyCustomForm(),
-        
-        //theme: ThemeData(
+        title: appTitle,
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text(appTitle),
+          ),
+          body: MyCustomForm(),
+
+          //theme: ThemeData(
           //primarySwatch: Colors.blue,
-        //),  
-      )
-    );
+          //),
+        ));
   }
 }
 
