@@ -6,6 +6,9 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  
+  var title = "FRC 467 Scouting Website";
+
   @override
   Widget build(BuildContext context) {
     final appTitle = 'Team 467 Scouting App';
@@ -26,12 +29,13 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// Create a Form widget.
+// // Create a Form widget.
 class MyCustomForm extends StatefulWidget {
   @override
   MyCustomFormState createState() {
     return MyCustomFormState();
   }
+  
 }
 
 // Create a corresponding State class, which holds data related to the form.
@@ -76,7 +80,7 @@ class MyCustomFormState extends State<MyCustomForm> {
           ),
           TextFormField(
             decoration: const InputDecoration(
-              icon: const Icon(Icons.calendar_today),
+              icon: const Icon(Icons.numbers),
               labelText: 'Did the team exit the taxi',
               hintText: 'Write 2 for Yes; 0 for No',
             ),
@@ -106,3 +110,5 @@ class MyCustomFormState extends State<MyCustomForm> {
     );
   }
 }
+
+
