@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-class Home extends StatelessWidget{
+class MyCustomForm extends StatelessWidget{
   @override
   Widget build(BuildContext context){
 
@@ -13,7 +13,7 @@ class Home extends StatelessWidget{
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40.0)),
           elevation: 5.0,
           child: Container(
-            child: Row(lib/main_screen.dart
+            child: Row(
               children: <Widget>[
                 Container(
                   width: MediaQuery.of(context).size.width /3.3,
