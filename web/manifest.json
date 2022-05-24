@@ -1,7 +1,7 @@
 {
     "name": "scouting467app",
     "short_name": "scouting467app",
-    "start_url": ".",
+    "start_url": "FRC467.Colonials",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
