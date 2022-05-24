@@ -38,7 +38,7 @@ class MyCustomForm extends StatelessWidget {
                             child: Text(
                               "Team 467 Scouting Form",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Color.fromARGB(248, 240, 197, 7),
                                 fontSize: 30.0,
                                 fontWeight: FontWeight.w900,
                               ),
@@ -54,7 +54,7 @@ class MyCustomForm extends StatelessWidget {
                             child: Text(
                               "''We Not Me''",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Color.fromARGB(248, 240, 197, 7),
                                 fontSize: 18.0,
                               ),
                               textAlign: TextAlign.center,
