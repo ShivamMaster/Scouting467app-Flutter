@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import '../widgets/input_field.dart';
 
@@ -94,15 +96,15 @@ class MyCustomForm extends StatelessWidget {
                       top: 15.0, right: 70.0, left: 70.0, bottom: 10.0),
                   child: Column(
                     children: <Widget>[
-                      Text(
-                        "Submit",
-                        style: TextStyle(
-                            color: Colors.lightBlue,
-                            fontWeight: FontWeight.w600,
-                            fontSize: 35.0,
-                            fontFamily: 'Merriweather'),
-                      ),
-                      const SizedBox(height: 21.0),
+                      // Text(
+                      //   "Submit",
+                      //   style: TextStyle(
+                      //       color: Colors.lightBlue,
+                      //       fontWeight: FontWeight.w600,
+                      //       fontSize: 35.0,
+                      //       fontFamily: 'Merriweather'),
+                      // ),
+                      // const SizedBox(height: 21.0),
 
                       //InputField Widget from the widgets folder
                       InputField(label: "Team Number", content: "467"),
@@ -136,18 +138,18 @@ class MyCustomForm extends StatelessWidget {
                             child: Text("Cancel"),
                           ),
 
-                          // SizedBox(width: 20.0,),
+                          SizedBox(width: 20.0,),
 
-                          // FlatButton(
-                          //   color: Colors.lightBlue,
-                          //   onPressed: (){},
-                          //   child: Text(
-                          //     "Create Account",
-                          //     style: TextStyle(
-                          //       color: Colors.white
-                          //     ),
-                          //),
-                          //),
+                          FlatButton(
+                            color: Colors.lightBlue,
+                            onPressed: (){},
+                            child: Text(
+                              "Submit",
+                              style: TextStyle(
+                                color: Colors.white
+                              ),
+                          ),
+                          ),
                         ],
                       ),
                     ],
