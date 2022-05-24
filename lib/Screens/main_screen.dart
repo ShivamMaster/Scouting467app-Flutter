@@ -53,7 +53,7 @@ class MyCustomForm extends StatelessWidget{
                               bottom: 5.0
                             ),
                             child: Text(
-                              "It should only take a couple of minutes to create your account",
+                              "Team 467 Scouting Form",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 18.0,
@@ -102,7 +102,7 @@ class MyCustomForm extends StatelessWidget{
                     children: <Widget>[
 
                       Text(
-                        "Sign Up",
+                        "Submit",
                         style: TextStyle(
                             color: Colors.lightBlue, fontWeight: FontWeight.w600, fontSize: 35.0, fontFamily: 'Merriweather'),
                       ),
@@ -110,8 +110,8 @@ class MyCustomForm extends StatelessWidget{
                       
                       //InputField Widget from the widgets folder
                       InputField(
-                        label: "Username",
-                        content: "a_khanooo"
+                        label: "Team Number",
+                        content: "467"
                       ),
 
                       SizedBox(height: 20.0),
@@ -120,8 +120,8 @@ class MyCustomForm extends StatelessWidget{
 
                       //InputField Widget from the widgets folder
                       InputField(
-                        label: "Date of birth",
-                        content: "03/04/2000"
+                        label: "Match Number",
+                        content: "2"
                       ),
 
 
@@ -130,8 +130,8 @@ class MyCustomForm extends StatelessWidget{
                      
                       //InputField Widget from the widgets folder
                       InputField(
-                        label: "Email",
-                        content: "anything@site.com"
+                        label: "Scouter Name",
+                        content: "Shivam"
                       ),
 
                       SizedBox(height: 20.0),
@@ -139,8 +139,8 @@ class MyCustomForm extends StatelessWidget{
                     
 
                       InputField(
-                        label: "Password",
-                        content: "********"
+                        label: "Did the team exit the Taxi",
+                        content: "Yes or No"
                       ),
 
 
@@ -160,16 +160,16 @@ class MyCustomForm extends StatelessWidget{
                             ),
                           ),
 
-                          SizedBox(width: 20.0,),
+                          // SizedBox(width: 20.0,),
 
-                          FlatButton(
-                            color: Colors.lightBlue,
-                            onPressed: (){},
-                            child: Text(
-                              "Create Account",
-                              style: TextStyle(
-                                color: Colors.white
-                              ),
+                          // FlatButton(
+                          //   color: Colors.lightBlue,
+                          //   onPressed: (){},
+                          //   child: Text(
+                          //     "Create Account",
+                          //     style: TextStyle(
+                          //       color: Colors.white
+                          //     ),
                             ),
                           ),
                         ],
