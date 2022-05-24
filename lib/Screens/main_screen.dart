@@ -35,7 +35,7 @@ class MyCustomForm extends StatelessWidget{
                               bottom: 5.0
                             ),
                             child: Text(
-                              "Let's get you set up",
+                              "We not Me",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 30.0,
