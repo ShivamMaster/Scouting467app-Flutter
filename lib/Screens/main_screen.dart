@@ -127,6 +127,35 @@ class MyCustomForm extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
+                      InputField(
+                          label: "Lower Hub Successful - Auto",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Lower Hub Failed ",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Higher Hub Successful",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Upper Hub Failed,
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Higher Hub Successful",
+                          content: "Yes or No"),
+
+
                       Row(
                         children: <Widget>[
                           SizedBox(
