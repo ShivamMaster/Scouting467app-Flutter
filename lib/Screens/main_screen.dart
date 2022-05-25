@@ -1,4 +1,4 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 import '../widgets/input_field.dart';
@@ -64,28 +64,6 @@ class MyCustomForm extends StatelessWidget {
                           SizedBox(
                             height: 50.0,
                           ),
-
-                          // ignore: deprecated_member_use
-                          // FlatButton(
-                          //   color: Colors.lightBlue,
-                          //   onPressed: ()
-                          //   {
-                          //      Navigator.push
-                          //      (
-                          //         context,
-                          //         MaterialPageRoute(builder: (context)
-                          //         {
-                          //           return new Login();
-                          //         })
-                          //      );
-                          //   },
-                          //   child: Text(
-                          //     "Login",
-                          //     style: TextStyle(
-                          //       color: Colors.white
-                          //     ),
-                          //   ),
-                          // ),
                         ],
                       ),
                     ),
@@ -96,29 +74,16 @@ class MyCustomForm extends StatelessWidget {
                       top: 15.0, right: 70.0, left: 70.0, bottom: 10.0),
                   child: Column(
                     children: <Widget>[
-                      // Text(
-                      //   "Submit",
-                      //   style: TextStyle(
-                      //       color: Colors.lightBlue,
-                      //       fontWeight: FontWeight.w600,
-                      //       fontSize: 35.0,
-                      //       fontFamily: 'Merriweather'),
-                      // ),
-                      // const SizedBox(height: 21.0),
-
-                      //InputField Widget from the widgets folder
+                     
                       InputField(label: "Team Number", content: "467"),
-
                       SizedBox(height: 20.0),
 
-                      //InputField Widget from the widgets folder
+
                       InputField(label: "Match Number", content: "2"),
-
                       SizedBox(height: 20.0),
 
-                      //InputField Widget from the widgets folder
-                      InputField(label: "Scouter Name", content: "Shivam"),
 
+                      InputField(label: "Scouter Name", content: "Shivam"),
                       SizedBox(height: 20.0),
 
                       InputField(
@@ -127,8 +92,60 @@ class MyCustomForm extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
+                      // Field Boxes for Auto
+                      InputField(
+                          label: "Lower Hub Successful - Auto",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Lower Hub Failed - Auto",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Upper Hub Successful - Auto",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Upper Hub Failed - Auto",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      // Field Boxes for the Teleop
+                      InputField(
+                          label: "Lower Hub Successful - Teleop",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Lower Hub Failed - Teleop",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Upper Hub Failed - Teleop",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+                      InputField(
+                          label: "Upper Hub Successful - Teleop",
+                          content: "Yes or No"),
+
+                      SizedBox(height: 20.0),
+
+
                       Row(
                         children: <Widget>[
+                          // Cancel Button
                           SizedBox(
                             width: 170.0,
                           ),
@@ -138,18 +155,20 @@ class MyCustomForm extends StatelessWidget {
                             child: Text("Cancel"),
                           ),
 
+                          // Submit Button
                           SizedBox(width: 20.0,),
-
                           FlatButton(
                             color: Colors.lightBlue,
                             onPressed: (){},
                             child: Text(
                               "Submit",
                               style: TextStyle(
-                                color: Colors.white
-                              ),
-                          ),
-                          ),
+                                color: Colors.white,
+                                fontWeight: FontWeight.w600,
+                                fontSize: 35.0,
+                                fontFamily: 'Merriweather'),
+                              ),                    
+                             ),
                         ],
                       ),
                     ],
