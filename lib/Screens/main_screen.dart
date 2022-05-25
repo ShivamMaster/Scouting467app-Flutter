@@ -64,28 +64,6 @@ class MyCustomForm extends StatelessWidget {
                           SizedBox(
                             height: 50.0,
                           ),
-
-                          // ignore: deprecated_member_use
-                          // FlatButton(
-                          //   color: Colors.lightBlue,
-                          //   onPressed: ()
-                          //   {
-                          //      Navigator.push
-                          //      (
-                          //         context,
-                          //         MaterialPageRoute(builder: (context)
-                          //         {
-                          //           return new Login();
-                          //         })
-                          //      );
-                          //   },
-                          //   child: Text(
-                          //     "Login",
-                          //     style: TextStyle(
-                          //       color: Colors.white
-                          //     ),
-                          //   ),
-                          // ),
                         ],
                       ),
                     ),
@@ -96,17 +74,7 @@ class MyCustomForm extends StatelessWidget {
                       top: 15.0, right: 70.0, left: 70.0, bottom: 10.0),
                   child: Column(
                     children: <Widget>[
-                      // Text(
-                      //   "Submit",
-                      //   style: TextStyle(
-                      //       color: Colors.lightBlue,
-                      //       fontWeight: FontWeight.w600,
-                      //       fontSize: 35.0,
-                      //       fontFamily: 'Merriweather'),
-                      // ),
-                      // const SizedBox(height: 21.0),
-
-
+                     
                       InputField(label: "Team Number", content: "467"),
                       SizedBox(height: 20.0),
 
