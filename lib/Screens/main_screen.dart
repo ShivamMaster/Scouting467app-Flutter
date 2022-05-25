@@ -108,17 +108,14 @@ class MyCustomForm extends StatelessWidget {
 
 
                       InputField(label: "Team Number", content: "467"),
-
                       SizedBox(height: 20.0),
 
 
                       InputField(label: "Match Number", content: "2"),
-
                       SizedBox(height: 20.0),
 
 
                       InputField(label: "Scouter Name", content: "Shivam"),
-
                       SizedBox(height: 20.0),
 
                       InputField(
@@ -127,6 +124,7 @@ class MyCustomForm extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
+                      // Field Boxes for Auto
                       InputField(
                           label: "Lower Hub Successful - Auto",
                           content: "Yes or No"),
@@ -151,7 +149,7 @@ class MyCustomForm extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
-                      
+                      // Field Boxes for the Teleop
                       InputField(
                           label: "Lower Hub Successful - Teleop",
                           content: "Yes or No"),
@@ -179,6 +177,7 @@ class MyCustomForm extends StatelessWidget {
 
                       Row(
                         children: <Widget>[
+                          // Cancel Button
                           SizedBox(
                             width: 170.0,
                           ),
@@ -188,8 +187,8 @@ class MyCustomForm extends StatelessWidget {
                             child: Text("Cancel"),
                           ),
 
+                          // Submit Button
                           SizedBox(width: 20.0,),
-
                           FlatButton(
                             color: Colors.lightBlue,
                             onPressed: (){},
