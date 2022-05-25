@@ -197,8 +197,11 @@ class MyCustomForm extends StatelessWidget {
                               "Submit",
                               style: TextStyle(
                                 color: Colors.white
-                              ),
-                          ),
+                                fontWeight: FontWeight.w600,
+                                fontSize: 35.0,
+                                fontFamily: 'Merriweather'),
+                              ),                    
+                             ),
                           ),
                         ],
                       ),
