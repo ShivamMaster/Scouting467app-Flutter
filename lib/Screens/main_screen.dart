@@ -21,7 +21,7 @@ class MyCustomForm extends StatelessWidget {
                 Container(
                   width: MediaQuery.of(context).size.width / 3.3,
                   height: MediaQuery.of(context).size.height,
-                  color: Colors.lightBlue[600],
+                  color: Color.fromARGB(248, 38, 36, 167),
                   child: Padding(
                     padding:
                         EdgeInsets.only(top: 85.0, right: 50.0, left: 50.0),
@@ -38,7 +38,7 @@ class MyCustomForm extends StatelessWidget {
                             child: Text(
                               "Team 467 Scouting Form",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Color.fromARGB(248, 240, 197, 7),
                                 fontSize: 30.0,
                                 fontWeight: FontWeight.w900,
                               ),
@@ -54,7 +54,7 @@ class MyCustomForm extends StatelessWidget {
                             child: Text(
                               "''We Not Me''",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Color.fromARGB(248, 240, 197, 7),
                                 fontSize: 18.0,
                               ),
                               textAlign: TextAlign.center,
