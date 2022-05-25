@@ -106,17 +106,17 @@ class MyCustomForm extends StatelessWidget {
                       // ),
                       // const SizedBox(height: 21.0),
 
-                      //InputField Widget from the widgets folder
+
                       InputField(label: "Team Number", content: "467"),
 
                       SizedBox(height: 20.0),
 
-                      //InputField Widget from the widgets folder
+
                       InputField(label: "Match Number", content: "2"),
 
                       SizedBox(height: 20.0),
 
-                      //InputField Widget from the widgets folder
+
                       InputField(label: "Scouter Name", content: "Shivam"),
 
                       SizedBox(height: 20.0),
