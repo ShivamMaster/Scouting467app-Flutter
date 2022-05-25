@@ -1,4 +1,4 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 import '../widgets/input_field.dart';
@@ -195,13 +195,12 @@ class MyCustomForm extends StatelessWidget {
                             child: Text(
                               "Submit",
                               style: TextStyle(
-                                color: Colors.white
+                                color: Colors.white,
                                 fontWeight: FontWeight.w600,
                                 fontSize: 35.0,
                                 fontFamily: 'Merriweather'),
                               ),                    
                              ),
-                          ),
                         ],
                       ),
                     ],
